@@ -1,0 +1,6 @@
+Design an abstract marine-tech logo mark for {brand_name}.
+- Flat, vector-like, minimal symbol; no text or lettering.
+- Combine waveforms, sonar rings, and contour lines into a single icon.
+- Color direction: {color_keywords}. Use high contrast.
+- 1:1 aspect, centered mark, solid background. No gradients or shadows.
+- Avoid photorealism, 3D, textures, watermarks.

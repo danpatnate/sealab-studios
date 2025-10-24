@@ -1,0 +1,6 @@
+Create a flat, minimal, vector-like monogram logo inspired by the letter "S" for {brand_name}.
+- No rendered text; only use abstract geometry that suggests the letterform.
+- Emphasize modular arcs and clean geometry (think sonar waves meeting a spiral).
+- Color direction: {color_keywords}. Solid fill on a plain background.
+- Centered, 1:1 aspect, no gradients, no shadows.
+- Avoid: photorealism, bevels, textures, watermarks, typographic glyphs.

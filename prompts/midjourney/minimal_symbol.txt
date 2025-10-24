@@ -1,0 +1,1 @@
+/imagine prompt: clean flat vector-like ocean-tech symbol, sonar rings and wave interference, minimal geometry, strong negative space, centered composition, 1:1 aspect, solid background, high contrast, no text, no letters, no gradients, no shadows, no 3D, no bevel, no watermark --ar 1:1 --v 6 --style raw --chaos 15

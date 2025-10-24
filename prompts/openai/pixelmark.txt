@@ -1,0 +1,6 @@
+Design a minimal pixel/voxel-inspired logo symbol for {brand_name}.
+- Flat, vector-like, clean edges; no text or letters.
+- Subtle nods to sonar or wave interference using grid geometry.
+- Color direction: {color_keywords}. Single dominant color on plain background.
+- 1:1 aspect, centered mark. No gradients, no shadow, no bevel.
+- Avoid photorealism, watermarks, and text.
