@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sealab Studios</title>
+    <meta name="description" content="Sealab Studios – Creative technology and design." />
+    <style>
+      :root {
+        --bg: #0b1020;
+        --bg-2: #0e1530;
+        --card: #101935cc;
+        --text: #eaf2ff;
+        --muted: #a9b5d1;
+        --accent: #6ee7ff;
+        --accent-2: #8b5cf6;
+        --shadow: rgba(0, 0, 0, 0.35);
+      }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+          Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        color: var(--text);
+        background: radial-gradient(60% 60% at 20% 10%, #11204a 0%, var(--bg) 55%),
+                    radial-gradient(50% 50% at 80% 10%, #1a123d 0%, var(--bg-2) 60%),
+                    radial-gradient(60% 70% at 50% 100%, #031227 0%, #070b17 60%);
+        background-attachment: fixed;
+      }
+      header {
+        position: fixed; inset: 0 0 auto 0; height: 64px; display: flex; align-items: center;
+        padding: 0 20px; backdrop-filter: blur(10px);
+        background: linear-gradient(180deg, rgba(8,12,24,.7), rgba(8,12,24,.3) 70%, transparent);
+        border-bottom: 1px solid rgba(255,255,255,.06);
+      }
+      .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: .2px; }
+      .logo {
+        width: 32px; height: 32px; border-radius: 10px; position: relative; overflow: hidden;
+        background: radial-gradient(120% 120% at -10% -10%, var(--accent) 0%, transparent 40%),
+                    radial-gradient(120% 120% at 110% 110%, var(--accent-2) 0%, transparent 42%),
+                    #0a162d;
+        box-shadow: 0 6px 18px -6px var(--shadow), inset 0 0 0 1px rgba(255,255,255,.06);
+      }
+      main { min-height: 100dvh; display: grid; place-items: center; padding: 96px 20px 40px; }
+      .hero {
+        width: min(100%, 980px);
+        display: grid; gap: 22px; text-align: center;
+        padding: 28px; border-radius: 18px;
+        background: linear-gradient(180deg, rgba(255,255,255,.015), rgba(255,255,255,.03));
+        box-shadow: 0 30px 80px -30px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.06);
+      }
+      h1 { font-size: clamp(36px, 6vw, 60px); margin: 0; line-height: 1.02; }
+      .subtitle { color: var(--muted); font-size: clamp(16px, 2.2vw, 20px); margin: 0; }
+      .cta {
+        display: inline-flex; gap: 10px; align-items: center; justify-content: center;
+        margin: 10px auto 0; padding: 12px 18px; border-radius: 12px; font-weight: 600;
+        color: #07101f; background: linear-gradient(135deg, var(--accent), #7dd3fc);
+        text-decoration: none; transform: translateZ(0);
+        box-shadow: 0 10px 24px -10px rgba(110,231,255,.5);
+        transition: transform .15s ease, box-shadow .15s ease;
+      }
+      .cta:hover { transform: translateY(-1px); box-shadow: 0 16px 30px -12px rgba(110,231,255,.6); }
+      .grid {
+        display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; margin-top: 8px;
+      }
+      .card {
+        grid-column: span 4; min-height: 120px; padding: 16px; border-radius: 14px;
+        background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.05));
+        border: 1px solid rgba(255,255,255,.06);
+      }
+      .card h3 { margin: 0 0 6px; font-size: 16px; color: #d7e4ff; }
+      .card p { margin: 0; color: var(--muted); font-size: 14px; }
+      @media (max-width: 900px) { .card { grid-column: span 6; } }
+      @media (max-width: 600px) {
+        header { height: 56px; }
+        .card { grid-column: span 12; }
+      }
+      footer { text-align: center; color: #7f8aad; padding: 26px 14px 40px; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Sealab Studios</div>
+      </div>
+    </header>
+    <main>
+      <section class="hero" aria-label="Hero">
+        <h1>Creativity, engineered.</h1>
+        <p class="subtitle">We blend design, code, and research to build memorable products.</p>
+        <a class="cta" href="README.md">View README</a>
+        <div class="grid" aria-label="Highlights">
+          <div class="card">
+            <h3>Design systems</h3>
+            <p>Elegant, accessible UI foundations tailored to your brand.</p>
+          </div>
+          <div class="card">
+            <h3>Prototyping</h3>
+            <p>Idea to interactive proof‑of‑concept with real data.</p>
+          </div>
+          <div class="card">
+            <h3>Engineering</h3>
+            <p>Robust, maintainable codebases with modern tooling.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>© <span id="year"></span> Sealab Studios</footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
