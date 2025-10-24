@@ -1,0 +1,10 @@
+Design a clean, flat, vector-like logo symbol for {brand_name}.
+- Mark-only (no text, no letters). Avoid rendering any typography.
+- Minimal geometry with strong negative space. Ocean-tech motif.
+- Motifs: sonar rings, wave interference, bathymetry lines, nautilus spiral.
+- Color direction: {color_keywords}. Use a single dominant color on a plain background.
+- Centered composition, 1:1 aspect. High contrast. No shadows. No gradients.
+- Output as a simple symbol on a solid background.
+- Avoid: photorealism, 3D, watermarks, glossy effects, text.
+
+If you are tempted to add text, do not. Create a pure symbol.

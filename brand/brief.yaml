@@ -1,0 +1,77 @@
+brand:
+  name: "Sealab Studios"
+  one_liner: "Exploratory design and software studio inspired by the ocean and research."
+  mission: "Craft playful, rigorous digital experiences that bridge creativity and science."
+  values:
+    - curiosity
+    - rigor
+    - craft
+    - playfulness
+    - openness
+  audience:
+    primary:
+      - venture-backed startups
+      - research labs
+      - creative technologists
+    secondary:
+      - educators
+      - non-profits
+  tone:
+    - modern
+    - clean
+    - intelligent
+    - friendly
+  keywords:
+    - ocean
+    - bathymetry
+    - sonar
+    - signal
+    - research
+    - modular
+    - geometric
+    - minimal
+  color_palette:
+    primary:
+      - "#0B3D4B"   # deep teal
+      - "#00B3C6"   # cyan
+      - "#0A2342"   # navy
+    accents:
+      - "#FFD166"   # warm sand
+      - "#EF476F"   # coral
+    neutrals:
+      - "#F6F8FA"   # near white
+      - "#1C1F23"   # near black
+  typography:
+    heading_suggested:
+      - "Suisse Intl"
+      - "Inter"
+      - "Satoshi"
+      - "IBM Plex Sans"
+    alt_heading:
+      - "Space Grotesk"
+      - "GT America"
+    monospace_support:
+      - "IBM Plex Mono"
+      - "JetBrains Mono"
+  logo:
+    constraints:
+      - no text in the symbol (mark-only)
+      - flat, vector-like silhouette
+      - minimal details, strong negative space
+      - centered, 1:1 aspect
+      - high contrast, solid background
+    motifs:
+      - abstract sonar rings
+      - stylized nautilus spiral
+      - bathymetry contour lines
+      - signal + wave interference
+      - geometric "S" monogram
+    avoid:
+      - skeuomorphic lighting or gradients
+      - photo textures
+      - busy outlines or small text
+      - drop shadows
+    deliverables:
+      - square symbol mark (PNG)
+      - exported sizes: 2048, 1024, 512, 256, 128
+      - webp variants for web performance
